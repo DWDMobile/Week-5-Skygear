@@ -1,0 +1,77 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+.page {
+	display: none;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.content {
+    border: 1px solid #5EC3B7;
+    border-radius: .3rem;
+    padding: 15px;
+}
+
+#page1 {
+	display: block;
+}
+
+h1 {
+    text-align: left;
+}
+
+.error {
+    color: red;
+}
+
+button {
+    display: block;
+    background: #5EC3B7;
+    margin: 10px 0;
+    border-style: none;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: .3rem; /* curved border */
+}
+
+.center {
+    right: 0;
+    position: relative;
+}
+
+.left {
+    right: 100px;
+     -webkit-transition:  right 2s ease-out; /* Safari */
+    transition: right 2s  ease-out;
+}
+
+input {
+    border: 1px solid #5EC3B7;
+    padding: 10px;
+    display: block;
+    border-radius: 3px;
+    margin: 5px 0;
+
+}
+
+.entries img {
+    width: 100%;
+    height: auto;
+}
+
+
